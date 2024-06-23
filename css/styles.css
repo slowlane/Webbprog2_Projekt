@@ -266,16 +266,22 @@ textarea {
 
 
 #footer {
+    display: flex;
+    flex-direction: column;
     background-color: orange;
     color: white;
     width: 100%;
-    height: 100px;
     place-content: center;
+    gap: 10px;
 }
 
-#footer p {
+#footer p, h3 {
     text-align: center;
+    padding: 5px;
+    font-weight: 700;
 }
+
+
 
 
 
